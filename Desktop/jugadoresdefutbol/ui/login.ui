@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(
+        x1:0, y1:0,
+        x2:0, y2:1,
+        stop:0 #34495e,
+        stop:1 #2c3e50
+    );
+}
+
+</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>541</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+    background-color: #1b2a38;
+}
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>194</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: transparent;
+	  font-size: 24px;
+}
+
+  
+
+</string>
+    </property>
+    <property name="text">
+     <string>👤</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>260</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    background: transparent;
+  font-size: 24px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>🔒</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="QlineEdit">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    background: transparent;
+    padding-left: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+QLineEdit::placeholder {
+    color: white;
+}
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>usuario</string>
+    </property>
+    <property name="placeholderText">
+     <string notr="true">usuario</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>260</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    background: transparent;
+    padding-left: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+QLineEdit::placeholder {
+    color: white;
+}
+
+
+
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>contraseña</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>340</y>
+      <width>90</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #27ae60;
+}
+
+QPushButton:pressed {
+    background-color: #1e8449;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>INGRESAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>400</y>
+      <width>90</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: green;
+    color: white;
+	 border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>REGISTRAR</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #2ecc71;
+font-size: 26px;
+font-weight: bold;
+</string>
+    </property>
+    <property name="text">
+     <string>JUGADORES DE FUTBOL</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
